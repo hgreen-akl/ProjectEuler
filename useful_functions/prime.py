@@ -13,6 +13,8 @@ def is_prime(n) :
         return True
     elif (n==3):
         return True
+    elif (n==4):
+        return False
     else:
         for x in range(2,n//2):
             if(n % x==0):
